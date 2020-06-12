@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
+
+    function openInNewTab(url) {
+      var win = window.open(url, '_blank');
+      win.focus();
+    }
+
+    
     return (
       <section id="portfolio">
       <div className="row">
@@ -13,7 +20,7 @@ export default class Porfolio extends Component {
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-01">
+                    <a onClick={() => openInNewTab(item.link)}>
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">

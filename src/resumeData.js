@@ -16,42 +16,41 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"I am a first year Computing Science student. My passion is fronted development. Most of the time I develop with React.js, Node.js and Angular.",
     "address":"Netherlands",
     "website":"jildert.venema@hotmail.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"University of Groningen",
+        "specialization":"Master - Computing Science",
+        "MonthOfPassing":"",
+        "YearOfPassing":"Present day",
+        // "Achievements":"Some Achievements"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
-      }
+        "UniversityName":"NHL Stenden University of Applied Sciences",
+        "specialization":"Information Technology",
+        "MonthOfPassing":"Aug",
+        "YearOfPassing":"2020",
+        // "Achievements":"HBO Diploma"
+      },
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"ZiuZ",
+        "specialization":"Forensic - Video analyse system in Web",
+        "MonthOfLeaving":"Present day",
+        "Achievements":"Graduation project HBO"
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
+        "CompanyName":"Appmachine",
+        "specialization":"Frontend Developer - 2 years",
         "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "YearOfLeaving":"2020",
+        // "Achievements":"Some Achievements"
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"These are my skills",
     "skills":[
       {
         "skillname":"HTML5"
@@ -60,39 +59,82 @@ let resumeData = {
         "skillname":"CSS"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"JQuery"
+      },
+      {
+        "skillname":"React.js"
+      },
+      {
+        "skillname":"Angular"
+      },
+      {
+        "skillname":"Node.js"
+      },
+      {
+        "skillname":".Net Core"
+      },
+      {
+        "skillname": "SQL"
+      },
+      {
+        "skillname":"Java"
+      },
+      {
+        "skillname":"Python"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Shoots.ga",
+        "description":"A mobile webbased multiplayer party game. Play agains your friends and answer questions about your friends in the multiplayer quiz.",
+        "imgurl":"images/portfolio/project.png",
+        "link": "https://shoots.ga"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Spotify friends playlist generator",
+        "description":"A webapplication that generates a spotify playlist based on your and your friends music interests.",
+        "imgurl":"images/portfolio/project2.png",
+        "link": "https://jildertvenema.github.io/spotify-friends-app/"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Boggle",
+        "description":"A mobile webbased multiplayer game. Play Boggle multiplayer with your friends.",  
+        "imgurl":"images/portfolio/boggle.png",
+        "link": "https://jildertvenema.github.io/boggle/"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Whatsapp backup vizualiser",
+        "description":"A webapplication that let's you import and view your Whatsapp backup files.",
+        "imgurl":"images/portfolio/project4.png",
+        "link": "https://jildertvenema.github.io/whatsapp/"
+      },
+      {
+        "name":"Abgewaschen",
+        "description":"A school project where we made a webbased co-op game. 'You are stranded on a deserted island and you have to find a way to survive...'.",
+        "imgurl":"images/portfolio/project6.png",
+        "link": "https://jildertvenema.github.io/abgewaschen"
+      },
+      {
+        "name":"Dance and Vision detection Robot",
+        "description":"A school project where we made a robot that can dance and detect objects.",
+        "imgurl":"images/portfolio/project5.jpg",
+        "link": "https://lemmesmash.nl"
+      },
+      {
+        "name":"Hololens Factory",
+        "description":"A Microsoft Hololens application where you can manage machine statuses.",
+        "imgurl":"images/portfolio/hololens.png",
+        "link": "https://www.beenen.nl/augmented-reality-bediening/"
       }
     ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"“The computer was born to solve problems that did not exist before.”",
+        "name":"Bill Gates"
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"“Computer Science is no more about computers than astronomy is about telescopes.”",
+        "name":"Edsger W. Dijkstraf"
       }
     ]
   }

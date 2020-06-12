@@ -13,9 +13,9 @@ export default class Header extends Component {
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
              <li><a className="smoothscroll" href="#resume">Resume</a></li>
-               <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-               <li><a className="smoothscroll" href="#contact">Contact</a></li>
+               <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
+               {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+               <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
             </ul>
          </nav>
 
@@ -23,7 +23,7 @@ export default class Header extends Component {
             <div className="banner-text">
                <h1 className="responsive-headline">JILDERT.DEV</h1>
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>
-                 I am a Computing Science student and frontend developer.
+                 I am <b>Jildert Venema</b>. A Computing Science student and frontend developer.
                </h3>
                <hr/>
                <ul className="social">
