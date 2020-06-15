@@ -100,7 +100,7 @@ let resumeData = {
         "name":"Boggle",
         "description":"A mobile webbased multiplayer game. Play Boggle multiplayer with your friends.",  
         "imgurl":"images/portfolio/boggle.png",
-        "link": "https://jildertvenema.github.io/boggle/"
+        "link": "https://boggle.jildert.dev"
       },
       {
         "name":"Whatsapp backup vizualiser",
