@@ -1,5 +1,24 @@
 import React, { Component } from 'react';
+
+
+import '../skills.scss'
+
 export default  class Resume extends Component {
+
+
+  getSkills(resumeData) {
+    const result = []
+
+    for (let i = 0 ; i < resumeData.skills.length; i+=2) {
+      result.push(<row>
+        <p class="paragraph"><span>○</span>{ " " + resumeData.skills[i].skillname}</p>
+        <p class="paragraph"><span>○</span>{ " " + resumeData.skills[i+1].skillname}</p>
+      </row>)
+    }
+
+    return result
+  }
+
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -62,7 +81,22 @@ export default  class Resume extends Component {
 
          <div className="row skill">
 
-            <div className="three columns header-col">
+          <div className="three columns header-col">
+              <h1><span>Skills</span></h1>
+            </div>
+
+            {/* <p>
+              {resumeData.skillsDescription}
+            </p> */}
+
+
+          <div class="skill-table">
+              {
+                this.getSkills(resumeData)
+              }
+            </div>
+
+            {/* <div className="three columns header-col">
                <h1><span>Skills</span></h1>
             </div>
 
@@ -90,7 +124,7 @@ export default  class Resume extends Component {
 
    				</div>
 
-   			</div>
+   			</div> */}
 
          </div>
 
