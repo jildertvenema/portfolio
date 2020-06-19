@@ -112,7 +112,7 @@ let resumeData = {
         "name":"Abgewaschen",
         "description":"A school project where we made a webbased co-op game. 'You are stranded on a deserted island and you have to find a way to survive...'.",
         "imgurl":"images/portfolio/project6.png",
-        "link": "https://jildertvenema.github.io/abgewaschen"
+        "link": "https://abgewaschen.jildert.dev"
       },
       {
         "name":"Dance and Vision detection Robot",
