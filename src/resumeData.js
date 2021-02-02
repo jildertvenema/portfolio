@@ -22,9 +22,9 @@ let resumeData = {
     "education":[
       {
         "UniversityName":"University of Groningen",
-        "specialization":"Master - Computing Science",
+        "specialization":"Pre-Master Computing Science",
         "MonthOfPassing":"",
-        "YearOfPassing":"Present day",
+        "YearOfPassing":"2021",
         // "Achievements":"Some Achievements"
       },
       {
@@ -88,7 +88,7 @@ let resumeData = {
         "name":"Shoots.ga",
         "description":"A mobile webbased multiplayer party game. Play agains your friends and answer questions about your friends in the multiplayer quiz.",
         "imgurl":"images/portfolio/project.png",
-        "link": "https://shoots.ga"
+        "link": "https://shoots.jildert.dev"
       },
       {
         "name":"Spotify friends playlist generator",
@@ -118,13 +118,19 @@ let resumeData = {
         "name":"Dance and Vision detection Robot",
         "description":"A school project where we made a robot that can dance and detect objects.",
         "imgurl":"images/portfolio/project5.jpg",
-        "link": "https://lemmesmash.nl"
+        "link": "https://github.com/jildertvenema/IDP"
       },
       {
         "name":"Hololens Factory",
         "description":"A Microsoft Hololens application where you can manage machine statuses.",
         "imgurl":"images/portfolio/hololens.png",
         "link": "https://www.beenen.nl/augmented-reality-bediening/"
+      },
+      {
+        "name":"JavaScript React Chess Bot",
+        "description":"A Chess bot in Javascript using the MiniMax algorithm and Alpha-Beta pruning.",
+        "imgurl":"images/portfolio/chess.png",
+        "link": "https://csb-tflhc.netlify.app/"
       }
     ],
     "testimonials":[
