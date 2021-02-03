@@ -109,6 +109,12 @@ let resumeData = {
         "link": "https://jildertvenema.github.io/whatsapp/"
       },
       {
+        "name":"Whatsapp backup chat bot AI",
+        "description":"A webapplication that let's you chat with a bot, created with your Whatsapp backup file.",
+        "imgurl":"images/portfolio/chat.png",
+        "link": "https://chat.jildert.dev"
+      },
+      {
         "name":"Abgewaschen",
         "description":"A school project where we made a webbased co-op game. 'You are stranded on a deserted island and you have to find a way to survive...'.",
         "imgurl":"images/portfolio/project6.png",
