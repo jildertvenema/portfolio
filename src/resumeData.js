@@ -16,7 +16,7 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"I am a first year Computing Science student. My passion is fronted development. Most of the time I develop with React.js, Node.js and Angular.",
+    "aboutme":"I'm a Computing Science student. My passion is fronted development. Most of the time I develop with React.js, Node.js and Angular.",
     "address":"Netherlands",
     "website":"jildert.venema@hotmail.com",
     "education":[
@@ -24,29 +24,35 @@ let resumeData = {
         "UniversityName":"University of Groningen",
         "specialization":"Pre-Master Computing Science",
         "MonthOfPassing":"",
-        "YearOfPassing":"2021",
+        "YearOfPassing":"2021 - 2021",
         // "Achievements":"Some Achievements"
       },
       {
         "UniversityName":"NHL Stenden University of Applied Sciences",
-        "specialization":"Information Technology",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
+        "specialization":"Information Technology HBO",
+        // "MonthOfPassing":"Aug",
+        "YearOfPassing":"2017 - 2020",
         // "Achievements":"HBO Diploma"
       },
     ],
     "work":[
       {
-        "CompanyName":"ZiuZ",
-        "specialization":"Forensic - Video analyse system in Web",
-        "MonthOfLeaving":"Present day",
-        "Achievements":"Graduation project HBO"
+        "CompanyName":"ZiuZ Visual Intelligence",
+        "specialization":"Software Developer",
+        "MonthOfLeaving":"2021 - Present day",
+        "Achievements":"Forensic - Video analyse system in Web"
       },
       {
-        "CompanyName":"Appmachine",
-        "specialization":"Frontend Developer - 2 years",
+        "CompanyName":"ZiuZ Visual Intelligence",
+        "specialization":"Intern Software Developer",
+        "MonthOfLeaving":"2020 - 2020",
+        "Achievements":"Forensic - Video analyse system in Web"
+      },
+      {
+        "CompanyName":"AppMachine B.V.",
+        "specialization":"Intern Frontend Developer",
         "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2020",
+        "YearOfLeaving":"2018 - 2020",
         // "Achievements":"Some Achievements"
       }
     ],
@@ -59,10 +65,16 @@ let resumeData = {
         "skillname":"CSS"
       },
       {
+        "skillname":"JavaScript"
+      },
+      {
         "skillname":"JQuery"
       },
       {
         "skillname":"React.js"
+      },
+      {
+        "skillname":"Webassembly"
       },
       {
         "skillname":"Angular"
@@ -91,10 +103,16 @@ let resumeData = {
         "link": "https://shoots.jildert.dev"
       },
       {
+        "name":"Chrome extension - Marktplaats anti scam",
+        "description":"A Google Chrome extension for detecting scammers using reverse image search and checking the sellers phone number and account number with the police API.",
+        "imgurl":"images/portfolio/marktplaats.png",
+        "link": "https://shoots.jildert.dev"
+      },
+      {
         "name":"Spotify friends playlist generator",
         "description":"A webapplication that generates a spotify playlist based on your and your friends music interests.",
         "imgurl":"images/portfolio/project2.png",
-        "link": "https://jildertvenema.github.io/spotify-friends-app/"
+        "link": "https://chrome.google.com/webstore/detail/marktplaats-anti-scam/pcbafmkiocdojcghmhdmmpjlebcehodn"
       },
       {
         "name":"Boggle",
