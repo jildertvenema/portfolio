@@ -28,6 +28,50 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+
+.quick-buttons {
+   margin-top: -38vh;
+   font-size: 20px;
+}
+
+.quick-button {
+   border-radius: 4px;
+   padding: 8px;
+   margin: 4px;
+   background-color: #9fa2ff;
+   color: black;
+   -webkit-transition: background-color .3s ease-in-out;
+   -moz-transition: background-color .3s ease-in-out;
+   -o-transition: background-color .3s ease-in-out;
+   transition: background-color .3s ease-in-out;
+}
+
+.quick-button:visited {
+   background-color: #9fa2ff;
+   color: black;
+}
+.quick-button:hover {
+   background-color: #c4c6ff;
+}
+ 
+.codeSandbox-svg {
+   margin-bottom: -3px;
+}
+
+@media screen and (max-width: 700px) {
+   .codeSandbox-svg {
+      height: 21px;
+   }
+}
+
+.codeSandbox-svg:hover path {
+   fill: #11ABB0!important;
+   -webkit-transition: fill .3s ease-in-out;
+   -moz-transition: fill .3s ease-in-out;
+   -o-transition: fill .3s ease-in-out;
+   transition: fill .3s ease-in-out;
+}
+
 header {
    position: relative;
    height: 800px;
@@ -380,12 +424,16 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+#portfolio-wrapper .columns { 
+   margin-bottom: 36px; 
+   width: 50%;
+ }
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
    border-radius: 2%;
    position: relative;
+   height: 500px;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -393,6 +441,18 @@ ul#nav li.current a { color: #F06000; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+
+
+@media screen and (max-width: 700px) {
+   .portfolio-item .item-wrap {
+      height: 400px;
+   }
+}
+
+.portfolio-item .item-wrap h5, p {
+   margin: 8px;
+}
+
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
@@ -444,6 +504,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
+   width: 100%;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
@@ -458,9 +519,9 @@ ul#nav li.current a { color: #F06000; }
 
 /* on hover */
 .portfolio-item:hover .overlay {
-	opacity: 1;
-	-moz-opacity: 1;
-	filter:alpha(opacity=100);
+	opacity: 0.2;
+	-moz-opacity: 0.2;
+	/* filter:alpha(opacity=100);  */
 }
 .portfolio-item:hover .link-icon {
    opacity: 1;

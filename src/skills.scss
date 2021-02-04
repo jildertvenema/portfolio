@@ -71,6 +71,11 @@ body {
     display: flex;
     justify-content: space-between;
     animation: 3s ease 0.2s forwards slideIn;
+
+    @media (max-width: 900px){
+      margin-left: 32px;
+    } 
+
   }
   
   .skill-table p.paragraph {

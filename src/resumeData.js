@@ -106,13 +106,13 @@ let resumeData = {
         "name":"Chrome extension - Marktplaats anti scam",
         "description":"A Google Chrome extension for detecting scammers using reverse image search and checking the sellers phone number and account number with the police API.",
         "imgurl":"images/portfolio/marktplaats.png",
-        "link": "https://shoots.jildert.dev"
+        "link": "https://chrome.google.com/webstore/detail/marktplaats-anti-scam/pcbafmkiocdojcghmhdmmpjlebcehodn"
       },
       {
         "name":"Spotify friends playlist generator",
         "description":"A webapplication that generates a spotify playlist based on your and your friends music interests.",
         "imgurl":"images/portfolio/project2.png",
-        "link": "https://chrome.google.com/webstore/detail/marktplaats-anti-scam/pcbafmkiocdojcghmhdmmpjlebcehodn"
+        "link": "https://jildertvenema.github.io/spotify-friends-app/"
       },
       {
         "name":"Boggle",
