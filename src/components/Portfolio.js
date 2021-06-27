@@ -23,7 +23,7 @@ export default class Porfolio extends Component {
                     <h5>{item.name}</h5>
                     <p>{item.description}</p>
                     <a onClick={() => openInNewTab(item.link)}>
-                      <img src={`${item.imgurl}`} className="item-img"/>
+                      <img alt={"development project " + item.name} src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                         </div>
